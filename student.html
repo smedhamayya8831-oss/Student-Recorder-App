@@ -1,0 +1,26 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student Records App</title>
+</head>
+<body>
+    <h1>Student Records App</h1>
+
+    <input type="text" id="name" placeholder="Student Name">
+    <input type="number" id="age" placeholder="Age">
+    <input type="number" id="marks" placeholder="Marks" min="0" max="100">
+
+    <button onclick="addStudent()">Add Student</button>
+
+    <h2>All Students</h2>
+    <ul id="studentList"></ul>
+
+    <h2>Toppers (Marks ≥ 80)</h2>
+    <ul id="toppersList"></ul>
+
+    <p id="average"></p>
+
+    <script src="stu.js"></script>
+</body>
+</html>
